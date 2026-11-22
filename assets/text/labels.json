@@ -1,0 +1,52 @@
+{
+  "image_scene": {
+    "food": "a photo of prepared food or a meal",
+    "retail": "a photo of products on shop or market shelves",
+    "animals": "a photo of wild animals",
+    "underwater": "a photo of fish and coral underwater",
+    "people": "a photo of a person or people",
+    "waste": "a photo of rubbish, pollution or a dump",
+    "kitchen": "a photo of a kitchen appliance"
+  },
+  "audio_kind": {
+    "music": "a piece of music",
+    "sound_effect": "a short sound effect",
+    "ambient": "an ambient background soundscape"
+  },
+  "video_activity": {
+    "pet": "a person playing with a pet",
+    "game": "a table-top game or puzzle",
+    "drink": "preparing a drink",
+    "sport": "a person doing sport or ball tricks",
+    "other": "a person standing indoors"
+  },
+  "_expected": {
+    "assets/images/dishes.jpg": "food",
+    "assets/images/groceries.jpg": "retail",
+    "assets/images/merchandise.jpg": "retail",
+    "assets/images/merchandise2.jpg": "retail",
+    "assets/images/wildlife.jpg": "animals",
+    "assets/images/aquatic.jpg": "underwater",
+    "assets/images/human.jpg": "people",
+    "assets/images/girl.jpg": "people",
+    "assets/images/crowd.jpg": "people",
+    "assets/images/trash.jpg": "waste",
+    "assets/images/kitchen.jpg": "kitchen",
+    "assets/videos/01_dog.mp4": "pet",
+    "assets/videos/02_cups.mp4": "game",
+    "assets/videos/03_blocks.mp4": "game",
+    "assets/videos/04_coffee.mp4": "drink",
+    "assets/videos/05_juggle.mp4": "sport",
+    "assets/videos/30s_vid.mp4": "other",
+    "assets/audio/voicebosch-soda-can-opening-167415.mp3": "sound_effect",
+    "assets/audio/musicwallah-soft_notification-sfx-567244.mp3": "sound_effect",
+    "assets/audio/dragon-studio-halloween-creepy-stock-sound-effect-511328.mp3": "sound_effect",
+    "assets/audio/musicwallah-magic_harp_descendin-sfx-567270.mp3": "sound_effect",
+    "assets/audio/musicwallah-space_station_ambient-sfx-567285.mp3": "ambient",
+    "assets/audio/ahmadmousavipour-1throw-the-chord-flamenco-stock-299645.mp3": "music",
+    "assets/audio/ahmadmousavipour-31flamenco-guitar-chords-stock-minera-407389.mp3": "music",
+    "assets/audio/ahmadmousavipour-3nice-arrpeggio-by-ahmad-mousavipour-music-stock-299647.mp3": "music",
+    "assets/audio/joyinsound-corporate-upbeat-motivational-music-royalty-free-496474.mp3": "music",
+    "assets/audio/van_wiese-gitarren-loop-136bpm-stereo-8969.mp3": "music"
+  }
+}

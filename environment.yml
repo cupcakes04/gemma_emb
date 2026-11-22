@@ -1,0 +1,11 @@
+# conda env create -f environment.yml
+# conda activate embeddinggemma_engine
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130   # match your driver (cu128 / cu130)
+# pip install -e ".[notebook,dev]"
+name: embeddinggemma_engine
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ffmpeg  # shared libraries for torchcodec (audio/video decoding)

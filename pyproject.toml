@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embeddinggemma_engine"
+version = "0.1.0"
+description = "Explicit, validated engine around Google EmbeddingGemma 2 (text, image, video, audio embeddings)"
+readme = "README.md"
+requires-python = ">=3.12"
+# torch / torchvision are listed for dependency resolution only.
+# Install them FIRST from the PyTorch CUDA index (see README), otherwise pip may pull a CPU build.
+dependencies = [
+    "torch>=2.7",
+    "torchvision",
+    # >=6.1.0 is the model's own requirement (config_sentence_transformers.json):
+    # older versions ignore the order of multimodal inputs.
+    "sentence-transformers>=6.1.0",
+    "transformers>=5.19",
+    "huggingface_hub",
+    "numpy",
+    "pillow",
+    # audio/video decoding (needs FFmpeg shared libraries; environment.yml installs them)
+    "torchcodec",
+    # resampling of raw audio arrays
+    "scipy",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "ipykernel", "matplotlib"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["embeddinggemma_engine*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: needs CUDA and the google/embeddinggemma-2 weights in the Hugging Face cache"]
+
+[tool.ruff]
+line-length = 100

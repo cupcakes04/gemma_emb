@@ -1,0 +1,19 @@
+{"id": "q01", "task": "search", "target": "text", "query": "how do I make naan without a tandoor oven", "expected": ["doc02"]}
+{"id": "q02", "task": "search", "target": "text", "query": "why do zebras have black and white stripes", "expected": ["doc06"]}
+{"id": "q03", "task": "question_answering", "target": "text", "query": "What share of marine species live on coral reefs?", "expected": ["doc08"]}
+{"id": "q04", "task": "fact_checking", "target": "text", "query": "Most plastic that has been produced was recycled.", "expected": ["doc11", "doc12"]}
+{"id": "q05", "task": "code_retrieval", "target": "text", "query": "convert stereo audio to mono at 16 kHz", "expected": ["code03"]}
+{"id": "q06", "task": "code_retrieval", "target": "text", "query": "get indices of the k highest scores in sorted order", "expected": ["code04"]}
+{"id": "q07", "task": "search", "target": "image", "query": "giraffes and zebras on the savanna", "expected": ["assets/images/wildlife.jpg"]}
+{"id": "q08", "task": "search", "target": "image", "query": "illegal dump full of old tyres", "expected": ["assets/images/trash.jpg"]}
+{"id": "q09", "task": "search", "target": "image", "query": "curry and naan bread for dinner", "expected": ["assets/images/dishes.jpg"]}
+{"id": "q10", "task": "search", "target": "image", "query": "reef fish in a big aquarium", "expected": ["assets/images/aquatic.jpg"]}
+{"id": "q11", "task": "search", "target": "image", "query": "shop shelves", "expected": ["assets/images/merchandise.jpg", "assets/images/merchandise2.jpg", "assets/images/groceries.jpg"]}
+{"id": "q12", "task": "search", "target": "video", "query": "making pour-over coffee with a kettle", "expected": ["assets/videos/04_coffee.mp4"]}
+{"id": "q13", "task": "search", "target": "video", "query": "football freestyle tricks", "expected": ["assets/videos/05_juggle.mp4"]}
+{"id": "q14", "task": "search", "target": "video", "query": "shell game with cups and a ball", "expected": ["assets/videos/02_cups.mp4"]}
+{"id": "q15", "task": "search", "target": "video", "query": "playing with a puppy outside", "expected": ["assets/videos/01_dog.mp4"]}
+{"id": "q16", "task": "search", "target": "audio", "query": "opening a fizzy drink", "expected": ["assets/audio/voicebosch-soda-can-opening-167415.mp3"]}
+{"id": "q17", "task": "search", "target": "audio", "query": "spanish flamenco guitar", "expected": ["assets/audio/ahmadmousavipour-1throw-the-chord-flamenco-stock-299645.mp3", "assets/audio/ahmadmousavipour-31flamenco-guitar-chords-stock-minera-407389.mp3"]}
+{"id": "q18", "task": "search", "target": "audio", "query": "spooky horror sound", "expected": ["assets/audio/dragon-studio-halloween-creepy-stock-sound-effect-511328.mp3"]}
+{"id": "q19", "task": "search", "target": "audio", "query": "background music for a company presentation", "expected": ["assets/audio/joyinsound-corporate-upbeat-motivational-music-royalty-free-496474.mp3"]}

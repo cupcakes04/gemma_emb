@@ -1,0 +1,15 @@
+# weights live in the Hugging Face cache, never in the repo
+*.safetensors
+*.pt
+*.bin
+models/
+
+# Windows download metadata
+*:Zone.Identifier
+
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
